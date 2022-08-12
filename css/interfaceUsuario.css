@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.margin0 {
+  margin-bottom: 0;
+}
+
+.margin_right {
+  margin-right: 1rem;
+}
+
+.margin_left {
+  margin-left: 1rem;
+}
+
+/* Seccion de Header */
+
+header {
+  border-bottom: black 2px solid;
+  padding-bottom: 0.5rem;
+}
+
+/* Seccion de Main */
+
+#secciones {
+  background-color: #46b144;
+  border-right: black 2px solid;
+  max-height: 1080px;
+}
+
+.restaurador_etiquetas {
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+}
+
+main {
+  flex: 1;
+}
+
+#contenido {
+  padding: 1rem 0 0 2rem;
+}
+
+.contenedor {
+  width: 5rem;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+#nombre_cuenta {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#nro_cuenta {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+#saldo_cuenta {
+  font-size: 1.2rem;
+}

@@ -1,0 +1,7 @@
+[
+  { "nombre": "USD/ARS", "venta": 302, "compra": 288 },
+  { "nombre": "BRL/ARS", "venta": 6, "compra": 5 },
+  { "nombre": "EUR/ARS", "venta": 321, "compra": 309 },
+  { "nombre": "GBP/ARS", "venta": 360, "compra": 355 },
+  { "nombre": "UYU/ARS", "venta": 3.22, "compra": 2.77 }
+]

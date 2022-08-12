@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(227, 227, 229, 0.485);
+}
+
+.cont_registro {
+  width: 80%;
+  border: 2px solid black;
+  padding: 1rem 1rem;
+}
+
+#titulo {
+  background-color: #46b144;
+}

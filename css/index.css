@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_color {
+  background-color: #46b144;
+}
+
+.color_fondo {
+  background-color: rgba(227, 227, 229, 0.485);
+}
+
+.margin0 {
+  margin-bottom: 0;
+}
+
+/* clases Header */
+
+#titulo {
+  margin-left: 20px;
+}
+
+header {
+  border-bottom: black 2px solid;
+  padding-bottom: 0.3rem;
+}
+
+#container-boton {
+  margin-right: 20px;
+}
+.boton_login {
+  background-color: #46b144;
+  border-radius: 5%;
+  border: none;
+  padding: 0.2rem 0.2rem;
+}
+
+.paginas_prop {
+  color: black;
+  text-decoration: none;
+}
+
+/* Nav */
+
+nav {
+  padding: 0.3rem;
+}
+
+/* clases container */
+.container_carrusel {
+  width: 100%;
+  padding: 1rem;
+}
+.subcontainer_carrusel {
+  max-width: 70%;
+}
+
+.letras_carrousel {
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  border-top: 2px solid black;
+  margin-top: 1rem;
+  padding: 0 0 1rem 1rem;
+}
+
+.foot-iconos {
+  font-size: xx-large;
+  color: black;
+}

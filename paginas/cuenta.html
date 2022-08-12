@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banco de Rosario - Cuenta</title>
+    <!--CSS Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="/css/interfaceUsuario.css" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="/imagenes/bank.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="d-flex justify-content-between align-items-center">
+      <div class="margin_left">
+        <h1 class="margin0">Banco de Rosario</h1>
+      </div>
+      <div class="margin_right">
+        <p id="saludo" class="margin0">Nombre</p>
+      </div>
+    </header>
+    <main class="row">
+      <div
+        id="secciones"
+        class="col-3 col-sm-3 d-flex flex-column align-items-center justify-content-around"
+      >
+        <div class="contenedor">
+          <a href="/paginas/cuenta.html" class="restaurador_etiquetas">
+            <img
+              src="/imagenes/logo-cuenta.png"
+              alt="logo cuenta"
+              class="logo"
+            />
+            <p class="restaurador_etiquetas">Cuenta</p>
+          </a>
+        </div>
+        <div class="contenedor">
+          <a href="/paginas/prestamos.html" class="restaurador_etiquetas">
+            <img
+              src="/imagenes/logo-prestamo.png"
+              alt="logo prestamo"
+              class="logo"
+            />
+            <p class="restaurador_etiquetas">Prestamos</p>
+          </a>
+        </div>
+        <div class="contenedor">
+          <a href="/paginas/divisas.html" class="restaurador_etiquetas">
+            <img
+              src="/imagenes/currency-logo.png"
+              alt="logo divisas"
+              class="logo"
+            />
+            <p class="restaurador_etiquetas">Divisas</p>
+          </a>
+        </div>
+      </div>
+      <div id="contenido" class="col-9 col-sm-9">
+        <h2 id="nombre_cuenta">Bienvenido</h2>
+        <p id="nro_cuenta">Numero cuenta</p>
+        <p id="saldo_cuenta">Saldo de cuenta</p>
+      </div>
+    </main>
+    <!--JS Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <!--JS-->
+    <script src="/javascript/cuenta.js" type="module"></script>
+  </body>
+</html>
