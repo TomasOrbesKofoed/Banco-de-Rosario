@@ -64,42 +64,7 @@
         </div>
       </div>
       <div id="contenido" class="col-9 col-sm-9">
-        <form id="formulario">
-          <label for="select" class="form-label"
-            >Seleeciona con que par deseas operar</label
-          >
-          <select
-            id="select"
-            class="form-select"
-            aria-label="Selecciona con que par deseas operar"
-            onchange=""
-          >
-            <option value="None">Elija un par</option>
-            <option value="USD/ARS">USD/ARS</option>
-            <option value="BRL/ARS">BRL/ARS</option>
-            <option value="EUR/ARS">EUR/ARS</option>
-            <option value="GBP/ARS">GBP/ARS</option>
-            <option value="UYU/ARS">UYU/ARS</option>
-          </select>
-          <div>
-            <div><p id="precio_compra">Compra:</p></div>
-            <div><p id="precio_venta">Venta:</p></div>
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Inserte el monto que desea comprar o vender</label
-            >
-            <input
-              type="number"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Monto en pesos"
-            />
-          </div>
-          <div>
-            <button type="submit">Ejecutar operación</button>
-          </div>
-        </form>
+        <div id="contenedor_divisa"></div>
       </div>
     </main>
     <!--SweetAlert-->

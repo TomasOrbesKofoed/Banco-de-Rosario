@@ -10,14 +10,22 @@ saludo.innerText = `Bienvenido ${usuario.nombre}`;
 
 //Main
 
-let formulario = document.getElementById("formulario");
-let compra = document.getElementById("precio_compra");
-let venta = document.getElementById("precio_venta");
+let contenedor = document.getElementById("contenedor_divisa");
 
 fetch("/JSON/cotizaciones.json")
   .then((res) => res.json())
   .then((data) => {
     data.forEach((divisa) => {
-      select.children.innerText = divisa.nombre;
+      const li = document.createElement("li");
+      li.innerHTML = `
+      <div>
+        <h3>${divisa.nombre}</h3>
+        <p>Compra: ${divisa.compra}</p>
+        <p>Venta: ${divisa.venta}</p>
+        </div>
+      `;
+      const ul = document.createElement("ul");
+      contenedor.append(ul);
+      ul.append(li);
     });
   });
