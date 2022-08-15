@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Banco de Rosario - Prestamos</title>
+    <title>Banco de Rosario - Acciones</title>
     <!--CSS Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -14,6 +14,7 @@
     />
     <!--CSS-->
     <link rel="stylesheet" href="/css/interfaceUsuario.css" />
+    <link rel="stylesheet" href="/css/divisas.css" />
     <!--Favicon-->
     <link rel="shortcut icon" href="/imagenes/bank.png" type="image/x-icon" />
   </head>
@@ -32,7 +33,7 @@
         class="col-3 col-sm-3 d-flex flex-column align-items-center justify-content-around"
       >
         <div class="contenedor">
-          <a href="/paginas/cuenta.html" class="restaurador_etiquetas">
+          <a href="cuenta.html" class="restaurador_etiquetas">
             <img
               src="/imagenes/logo-cuenta.png"
               alt="logo cuenta"
@@ -42,7 +43,7 @@
           </a>
         </div>
         <div class="contenedor">
-          <a href="/paginas/prestamos.html" class="restaurador_etiquetas">
+          <a href="prestamos.html" class="restaurador_etiquetas">
             <img
               src="/imagenes/logo-prestamo.png"
               alt="logo prestamo"
@@ -52,7 +53,7 @@
           </a>
         </div>
         <div class="contenedor">
-          <a href="/paginas/divisas.html" class="restaurador_etiquetas">
+          <a href="divisas.html" class="restaurador_etiquetas">
             <img
               src="/imagenes/currency-logo.png"
               alt="logo divisas"
@@ -63,48 +64,7 @@
         </div>
       </div>
       <div id="contenido" class="col-9 col-sm-9">
-        <form id="formulario">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >Monto del prestamo a solicitar en pesos:</label
-            >
-            <input
-              type="number"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Cantidad de pesos"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >A cuantos años piensa devolver el prestamo? (entre 1 y 5
-              años)</label
-            >
-            <input
-              type="number"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="Años"
-            />
-          </div>
-          <div>
-            <p>
-              Actualmente, las tasas que se le aplican a los prestamos es del
-              50% anual compuesta
-            </p>
-          </div>
-          <div>
-            <input type="submit" value="Calcular valor de las cuotas a pagar" />
-          </div>
-          <div><p id="info"></p></div>
-          <div>
-            <input
-              type="submit"
-              value="Solicitar prestamo"
-              id="confirmar_prestamo"
-            />
-          </div>
-        </form>
+        <div id="contenedor_divisa"></div>
       </div>
     </main>
     <!--SweetAlert-->
@@ -115,6 +75,7 @@
       integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
       crossorigin="anonymous"
     ></script>
-    <script src="/javascript/prestamos.js"></script>
+    <!--JS-->
+    <script src="/javascript/divisas.js"></script>
   </body>
 </html>

@@ -3,7 +3,7 @@ let contra_comentario = document.getElementById("contra_comentario");
 let doc_error = document.getElementById("doc_error");
 
 let redireccionar = () => {
-  document.location.href = "/paginas/cuenta.html";
+  document.location.href = "cuenta.html";
 };
 
 class UsuarioNuevo {
