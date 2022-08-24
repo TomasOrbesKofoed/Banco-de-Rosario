@@ -72,3 +72,10 @@ main {
 #saldo_cuenta {
   font-size: 1.2rem;
 }
+
+.boton_prestamos {
+  border-radius: 15%;
+  margin-top: 10px;
+  border: solid grey 1px;
+  padding: 4px 4px;
+}
